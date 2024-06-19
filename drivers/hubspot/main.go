@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/piyushsingariya/synkit"
-	driver "github.com/piyushsingariya/synkit/drivers/hubspot/internal"
+	"github.com/gear5sh/gear5"
+	driver "github.com/gear5sh/gear5/drivers/hubspot/internal"
 )
 
 func main() {
 	driver := &driver.Hubspot{}
-	synkit.RegisterDriver(driver)
+	gear5.RegisterDriver(driver)
 }

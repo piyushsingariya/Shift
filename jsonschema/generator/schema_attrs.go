@@ -8,8 +8,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/piyushsingariya/synkit/jsonschema/schema"
-	"github.com/piyushsingariya/synkit/logger"
+	"github.com/gear5sh/gear5/jsonschema/schema"
+	"github.com/gear5sh/gear5/logger"
 )
 
 func (g *JSONSchemaGenerator) shouldReturnRef(decl *declInfo) bool {

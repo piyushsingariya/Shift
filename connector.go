@@ -1,12 +1,12 @@
-package synkit
+package gear5
 
 import (
 	"fmt"
 	"os"
 
-	"github.com/piyushsingariya/synkit/logger"
-	protocol "github.com/piyushsingariya/synkit/protocol"
-	"github.com/piyushsingariya/synkit/safego"
+	"github.com/gear5sh/gear5/logger"
+	protocol "github.com/gear5sh/gear5/protocol"
+	"github.com/gear5sh/gear5/safego"
 	"github.com/spf13/cobra"
 )
 

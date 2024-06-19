@@ -1,9 +1,9 @@
 package base
 
 import (
-	"github.com/piyushsingariya/synkit/protocol"
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/utils"
+	"github.com/gear5sh/gear5/protocol"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/utils"
 )
 
 // Pass dest with all fields initialized to handle nil state case

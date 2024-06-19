@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/piyushsingariya/synkit/logger/console"
-	"github.com/piyushsingariya/synkit/types"
+	"github.com/gear5sh/gear5/logger/console"
+	"github.com/gear5sh/gear5/types"
 )
 
 // Info writes record into os.stdout with log level INFO

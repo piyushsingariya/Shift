@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/piyushsingariya/synkit/logger"
+	"github.com/gear5sh/gear5/logger"
 )
 
 type Config struct {

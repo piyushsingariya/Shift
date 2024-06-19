@@ -10,10 +10,10 @@ import (
 
 	"github.com/goccy/go-json"
 
+	"github.com/gear5sh/gear5/logger"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/utils"
 	unidecode "github.com/mozillazg/go-unidecode"
-	"github.com/piyushsingariya/synkit/logger"
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/utils"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	"gopkg.in/Iwark/spreadsheet.v2"

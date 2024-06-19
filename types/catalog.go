@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/piyushsingariya/synkit/utils"
+	"github.com/gear5sh/gear5/utils"
 )
 
-// Message is a dto for synkit output row representation
+// Message is a dto for gear5 output row representation
 type Message struct {
 	Type             MessageType            `json:"type"`
 	Log              *Log                   `json:"log,omitempty"`

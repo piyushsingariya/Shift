@@ -1,11 +1,11 @@
 package main
 
 import (
+	"github.com/gear5sh/gear5"
 	driver "github.com/piyushsingariya/drivers/s3/internal"
-	"github.com/piyushsingariya/synkit"
 )
 
 func main() {
 	driver := &driver.S3{}
-	synkit.RegisterDriver(driver)
+	gear5.RegisterDriver(driver)
 }

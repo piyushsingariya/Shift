@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/gear5sh/gear5/drivers/base"
+	"github.com/gear5sh/gear5/pkg/jdbc"
+	"github.com/gear5sh/gear5/pkg/waljs"
+	"github.com/gear5sh/gear5/protocol"
+	"github.com/gear5sh/gear5/safego"
+	"github.com/gear5sh/gear5/types"
 	"github.com/jmoiron/sqlx"
-	"github.com/piyushsingariya/synkit/drivers/base"
-	"github.com/piyushsingariya/synkit/pkg/jdbc"
-	"github.com/piyushsingariya/synkit/pkg/waljs"
-	"github.com/piyushsingariya/synkit/protocol"
-	"github.com/piyushsingariya/synkit/safego"
-	"github.com/piyushsingariya/synkit/types"
 )
 
 func (p *Postgres) prepareWALJSConfig(streams ...protocol.Stream) (*waljs.Config, error) {

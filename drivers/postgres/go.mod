@@ -1,10 +1,10 @@
-module github.com/piyushsingariya/synkit/drivers/postgres
+module github.com/gear5sh/gear5/drivers/postgres
 
 go 1.22
 
 require (
 	github.com/lib/pq v1.10.2
-	github.com/piyushsingariya/synkit v0.0.0-20230630130252-054496f39abb
+	github.com/gear5sh/gear5 v0.0.0-20230630130252-054496f39abb
 )
 
 require (

@@ -1,4 +1,4 @@
-module github.com/piyushsingariya/synkit/drivers/hubspot
+module github.com/gear5sh/gear5/drivers/hubspot
 
 go 1.22
 
@@ -6,7 +6,7 @@ toolchain go1.22.3
 
 require (
 	github.com/goccy/go-json v0.10.2
-	github.com/piyushsingariya/synkit v0.0.0-20230727050722-6795340c7033
+	github.com/gear5sh/gear5 v0.0.0-20230727050722-6795340c7033
 	golang.org/x/oauth2 v0.11.0
 )
 
@@ -42,4 +42,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/piyushsingariya/synkit => ../../
+replace github.com/gear5sh/gear5 => ../../

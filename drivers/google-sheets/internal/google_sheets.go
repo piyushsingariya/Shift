@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/piyushsingariya/synkit/drivers/base"
-	"github.com/piyushsingariya/synkit/logger"
-	"github.com/piyushsingariya/synkit/protocol"
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/utils"
+	"github.com/gear5sh/gear5/drivers/base"
+	"github.com/gear5sh/gear5/logger"
+	"github.com/gear5sh/gear5/protocol"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/utils"
 	"gopkg.in/Iwark/spreadsheet.v2"
 )
 

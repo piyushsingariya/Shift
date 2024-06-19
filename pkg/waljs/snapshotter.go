@@ -3,7 +3,7 @@ package waljs
 import (
 	"context"
 
-	"github.com/piyushsingariya/synkit/protocol"
+	"github.com/gear5sh/gear5/protocol"
 
 	"github.com/jackc/pgx/v5"
 	_ "github.com/lib/pq"

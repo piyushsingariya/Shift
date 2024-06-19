@@ -13,10 +13,10 @@ import (
 
 	_ "github.com/akrennmair/parquet-go-lzo"  // registers the LZO block compressor with parquet-go
 	_ "github.com/akrennmair/parquet-go-zstd" // registers the Zstd block compressor with parquet-go
-	"github.com/piyushsingariya/synkit/logger"
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/typeutils"
-	"github.com/piyushsingariya/synkit/utils"
+	"github.com/gear5sh/gear5/logger"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/typeutils"
+	"github.com/gear5sh/gear5/utils"
 
 	"github.com/aws/aws-sdk-go/service/s3"
 	goparquet "github.com/fraugster/parquet-go"

@@ -7,7 +7,7 @@ import (
 
 	"github.com/goccy/go-json"
 
-	"github.com/piyushsingariya/synkit/types"
+	"github.com/gear5sh/gear5/types"
 )
 
 var (

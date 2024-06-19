@@ -5,14 +5,14 @@ import (
 	"database/sql"
 	"fmt"
 
+	"github.com/gear5sh/gear5/drivers/base"
+	"github.com/gear5sh/gear5/logger"
+	"github.com/gear5sh/gear5/pkg/jdbc"
+	"github.com/gear5sh/gear5/protocol"
+	"github.com/gear5sh/gear5/safego"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/utils"
 	"github.com/jmoiron/sqlx"
-	"github.com/piyushsingariya/synkit/drivers/base"
-	"github.com/piyushsingariya/synkit/logger"
-	"github.com/piyushsingariya/synkit/pkg/jdbc"
-	"github.com/piyushsingariya/synkit/protocol"
-	"github.com/piyushsingariya/synkit/safego"
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/utils"
 )
 
 // Simple Full Refresh Sync; Loads table fully

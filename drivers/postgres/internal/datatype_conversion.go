@@ -1,7 +1,7 @@
 package driver
 
 import (
-	"github.com/piyushsingariya/synkit/types"
+	"github.com/gear5sh/gear5/types"
 )
 
 var pgTypeToDataTypes = map[string]types.DataType{

@@ -6,8 +6,8 @@ import (
 
 	"github.com/goccy/go-json"
 
-	"github.com/piyushsingariya/synkit/jsonschema/generator"
-	"github.com/piyushsingariya/synkit/jsonschema/schema"
+	"github.com/gear5sh/gear5/jsonschema/generator"
+	"github.com/gear5sh/gear5/jsonschema/schema"
 	"sigs.k8s.io/yaml"
 )
 

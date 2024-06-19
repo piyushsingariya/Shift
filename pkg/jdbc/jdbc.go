@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/piyushsingariya/synkit/protocol"
-	"github.com/piyushsingariya/synkit/types"
+	"github.com/gear5sh/gear5/protocol"
+	"github.com/gear5sh/gear5/types"
 )
 
 const CDCDeletedAt = "_cdc_deleted_at"

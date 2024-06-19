@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/piyushsingariya/synkit"
-	driver "github.com/piyushsingariya/synkit/drivers/google-sheets/internal"
+	"github.com/gear5sh/gear5"
+	driver "github.com/gear5sh/gear5/drivers/google-sheets/internal"
 )
 
 func main() {
 	driver := &driver.GoogleSheets{}
-	synkit.RegisterDriver(driver)
+	gear5.RegisterDriver(driver)
 }

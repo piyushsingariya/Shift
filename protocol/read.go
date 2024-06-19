@@ -6,16 +6,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/piyushsingariya/synkit/logger"
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/utils"
+	"github.com/gear5sh/gear5/logger"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/utils"
 	"github.com/spf13/cobra"
 )
 
 // ReadCmd represents the read command
 var ReadCmd = &cobra.Command{
 	Use:   "read",
-	Short: "Synkit read command",
+	Short: "Gear5 read command",
 	PersistentPreRunE: func(cmd *cobra.Command, args []string) error {
 		if config_ == "" {
 			return fmt.Errorf("--config not passed")

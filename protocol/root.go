@@ -3,9 +3,9 @@ package protocol
 import (
 	"fmt"
 
-	"github.com/piyushsingariya/synkit/logger/console"
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/utils"
+	"github.com/gear5sh/gear5/logger/console"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )
@@ -30,7 +30,7 @@ var (
 
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
-	Use:   "synkit",
+	Use:   "gear5",
 	Short: "root command",
 	RunE: func(cmd *cobra.Command, args []string) error {
 		if len(args) == 0 {
@@ -38,7 +38,7 @@ var RootCmd = &cobra.Command{
 		}
 
 		if ok := utils.IsValidSubcommand(getAvailableCommands(), args[0]); !ok {
-			return fmt.Errorf("'%s' is an invalid command. Use 'synkit --help' to display usage guide", args[0])
+			return fmt.Errorf("'%s' is an invalid command. Use 'gear5 --help' to display usage guide", args[0])
 		}
 
 		return nil

@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/brainicorn/jsonschemagen.svg?branch=master)](https://travis-ci.org/brainicorn/jsonschemagen)
 [![codecov](https://codecov.io/gh/brainicorn/jsonschemagen/branch/master/graph/badge.svg)](https://codecov.io/gh/brainicorn/jsonschemagen)
-[![Go Report Card](https://goreportcard.com/badge/github.com/piyushsingariya/synkit/jsonschema)](https://goreportcard.com/report/github.com/piyushsingariya/synkit/jsonschema)
-[![GoDoc](https://godoc.org/github.com/piyushsingariya/synkit/jsonschema?status.svg)](https://godoc.org/github.com/piyushsingariya/synkit/jsonschema)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gear5sh/gear5/jsonschema)](https://goreportcard.com/report/github.com/gear5sh/gear5/jsonschema)
+[![GoDoc](https://godoc.org/github.com/gear5sh/gear5/jsonschema?status.svg)](https://godoc.org/github.com/gear5sh/gear5/jsonschema)
 
 # jsonschemagen
 
@@ -9,9 +9,9 @@ JSON SchemaGen is a library and command-line tool that allows generating a JSON-
 
 Essentially, the same structs you use to consume JSON can also be used to generate a JSON-Schema.
 
-**API Documentation:** [https://godoc.org/github.com/piyushsingariya/synkit/jsonschema](https://godoc.org/github.com/piyushsingariya/synkit/jsonschema)
+**API Documentation:** [https://godoc.org/github.com/gear5sh/gear5/jsonschema](https://godoc.org/github.com/gear5sh/gear5/jsonschema)
 
-[Issue Tracker](https://github.com/piyushsingariya/synkit/jsonschema/issues)
+[Issue Tracker](https://github.com/gear5sh/gear5/jsonschema/issues)
 
 **Annotation Guide:** [jsonSchema annotation guide](annotation_guide.md)
 
@@ -20,7 +20,7 @@ Essentially, the same structs you use to consume JSON can also be used to genera
 The most common way to use jsonschemagen is as a command-line tool executed via `go generate`. To install the CLI tool, simply run:
 
 ```bash
-> go get -v github.com/piyushsingariya/synkit/jsonschema
+> go get -v github.com/gear5sh/gear5/jsonschema
 ```
 
 Once installed, you can add a comment in your main.go (or some other go file in your root package) to integrate jsonschemagen with the go generate tool.
@@ -204,9 +204,9 @@ func main() {
 }
 ```
 
-**API Documentation:** [https://godoc.org/github.com/piyushsingariya/synkit/jsonschema](https://godoc.org/github.com/piyushsingariya/synkit/jsonschema)
+**API Documentation:** [https://godoc.org/github.com/gear5sh/gear5/jsonschema](https://godoc.org/github.com/gear5sh/gear5/jsonschema)
 
-[Issue Tracker](https://github.com/piyushsingariya/synkit/jsonschema/issues)
+[Issue Tracker](https://github.com/gear5sh/gear5/jsonschema/issues)
 
 ## Contributors
 

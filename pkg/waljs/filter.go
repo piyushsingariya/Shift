@@ -6,9 +6,9 @@ import (
 
 	"github.com/goccy/go-json"
 
+	"github.com/gear5sh/gear5/protocol"
+	"github.com/gear5sh/gear5/utils"
 	"github.com/jackc/pglogrepl"
-	"github.com/piyushsingariya/synkit/protocol"
-	"github.com/piyushsingariya/synkit/utils"
 )
 
 type ChangeFilter struct {

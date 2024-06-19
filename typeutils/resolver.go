@@ -1,6 +1,6 @@
 package typeutils
 
-import "github.com/piyushsingariya/synkit/types"
+import "github.com/gear5sh/gear5/types"
 
 func Resolve(stream *types.Stream, objects ...map[string]interface{}) error {
 	allfields := Fields{}

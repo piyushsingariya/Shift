@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/utils"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/utils"
 )
 
 // TypeFromValue return DataType from v type

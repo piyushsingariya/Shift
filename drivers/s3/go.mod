@@ -4,7 +4,7 @@ go 1.22
 
 toolchain go1.22.3
 
-require github.com/piyushsingariya/synkit v0.0.0-20230727050722-6795340c7033
+require github.com/gear5sh/gear5 v0.0.0-20230727050722-6795340c7033
 
 require (
 	github.com/andybalholm/brotli v1.1.0 // indirect
@@ -55,4 +55,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/piyushsingariya/synkit => ../../
+replace github.com/gear5sh/gear5 => ../../

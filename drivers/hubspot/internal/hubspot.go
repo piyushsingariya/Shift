@@ -5,14 +5,14 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/gear5sh/gear5/drivers/base"
 	"github.com/goccy/go-json"
-	"github.com/piyushsingariya/synkit/drivers/base"
 
-	"github.com/piyushsingariya/synkit/jsonschema"
-	"github.com/piyushsingariya/synkit/jsonschema/schema"
-	"github.com/piyushsingariya/synkit/protocol"
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/utils"
+	"github.com/gear5sh/gear5/jsonschema"
+	"github.com/gear5sh/gear5/jsonschema/schema"
+	"github.com/gear5sh/gear5/protocol"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/utils"
 )
 
 type Hubspot struct {

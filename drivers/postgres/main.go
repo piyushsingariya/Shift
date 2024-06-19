@@ -1,11 +1,11 @@
 package main
 
 import (
+	"github.com/gear5sh/gear5"
+	"github.com/gear5sh/gear5/drivers/base"
+	driver "github.com/gear5sh/gear5/drivers/postgres/internal"
+	"github.com/gear5sh/gear5/protocol"
 	_ "github.com/jackc/pgx/v4/stdlib"
-	"github.com/piyushsingariya/synkit"
-	"github.com/piyushsingariya/synkit/drivers/base"
-	driver "github.com/piyushsingariya/synkit/drivers/postgres/internal"
-	"github.com/piyushsingariya/synkit/protocol"
 )
 
 func main() {
@@ -15,5 +15,5 @@ func main() {
 	_ = protocol.BulkDriver(driver)
 
 	defer driver.CloseConnection()
-	synkit.RegisterDriver(driver)
+	gear5.RegisterDriver(driver)
 }

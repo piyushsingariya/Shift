@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "definitions": {
-    "github_com-piyushsingariya-synkit-utils-SSLConfig": {
+    "github_com-piyushsingariya-gear5-utils-SSLConfig": {
       "properties": {
         "client_cert": {
           "title": "Client Certificate",
@@ -24,7 +24,7 @@
       "required": ["mode"],
       "title": "SSLConfig is a dto for deserialized SSL configuration for Postgres",
       "type": "object",
-      "x-go-path": "github.com/piyushsingariya/synkit/utils/SSLConfig"
+      "x-go-path": "github.com/gear5sh/gear5/utils/SSLConfig"
     }
   },
   "properties": {
@@ -53,7 +53,7 @@
       "type": "integer"
     },
     "ssl": {
-      "$ref": "#/definitions/github_com-piyushsingariya-synkit-utils-SSLConfig",
+      "$ref": "#/definitions/github_com-piyushsingariya-gear5-utils-SSLConfig",
       "title": "Hostname of the database."
     },
     "update_method": {
@@ -62,7 +62,7 @@
           "$schema": "https://json-schema.org/draft/2020-12/schema",
           "title": "Standard Sync",
           "type": "object",
-          "x-go-path": "github.com/piyushsingariya/synkit/drivers/postgres/internal/Standard"
+          "x-go-path": "github.com/gear5sh/gear5/drivers/postgres/internal/Standard"
         },
         {
           "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -81,7 +81,7 @@
           "required": ["replication_slot", "intial_wait_time"],
           "title": "Capture Write Ahead Logs",
           "type": "object",
-          "x-go-path": "github.com/piyushsingariya/synkit/drivers/postgres/internal/CDC"
+          "x-go-path": "github.com/gear5sh/gear5/drivers/postgres/internal/CDC"
         }
       ],
       "title": "Configures how data is extracted from the database.",
@@ -102,5 +102,5 @@
     "update_method"
   ],
   "type": "object",
-  "x-go-path": "github.com/piyushsingariya/synkit/drivers/postgres/internal/Config"
+  "x-go-path": "github.com/gear5sh/gear5/drivers/postgres/internal/Config"
 }

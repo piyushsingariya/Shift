@@ -1,4 +1,4 @@
-module github.com/piyushsingariya/synkit/drivers/google-sheets
+module github.com/gear5sh/gear5/drivers/google-sheets
 
 go 1.22
 
@@ -7,7 +7,7 @@ toolchain go1.22.3
 require (
 	github.com/goccy/go-json v0.10.2
 	github.com/mozillazg/go-unidecode v0.2.0
-	github.com/piyushsingariya/synkit v0.0.0-00010101000000-000000000000
+	github.com/gear5sh/gear5 v0.0.0-00010101000000-000000000000
 	golang.org/x/oauth2 v0.10.0
 	gopkg.in/Iwark/spreadsheet.v2 v2.0.0-20220412131121-41eea1483964
 )
@@ -46,4 +46,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/piyushsingariya/synkit => ../../
+replace github.com/gear5sh/gear5 => ../../

@@ -3,8 +3,8 @@ package typeutils
 import (
 	"sort"
 
-	"github.com/piyushsingariya/synkit/logger"
-	"github.com/piyushsingariya/synkit/types"
+	"github.com/gear5sh/gear5/logger"
+	"github.com/gear5sh/gear5/types"
 )
 
 type Fields map[string]*Field

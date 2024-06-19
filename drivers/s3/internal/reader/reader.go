@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/piyushsingariya/synkit/types"
+	"github.com/gear5sh/gear5/types"
 )
 
 var FileTypes = []string{"parquet"}

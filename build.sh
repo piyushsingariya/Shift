@@ -17,17 +17,17 @@ function build_and_run() {
     fi
     cd $path
     go mod tidy
-    go build -ldflags="-w -s -X constants/constants.version=${GIT_VERSION} -X constants/constants.commitsha=${GIT_COMMITSHA} -X constants/constants.releasechannel=${RELEASE_CHANNEL}" -o synkit main.go
+    go build -ldflags="-w -s -X constants/constants.version=${GIT_VERSION} -X constants/constants.commitsha=${GIT_COMMITSHA} -X constants/constants.releasechannel=${RELEASE_CHANNEL}" -o g5 main.go
 
     echo "============================== Executing connector: $connector with args [$joined_arguments] =============================="
-    ./synkit $joined_arguments
+    ./g5 $joined_arguments
 }
 
 if [ $# -gt 0 ]; then
     argument="$1"
 
     # Capture and join remaining arguments
-    synkit
+    g5
     remaining_arguments=("$@")
     joined_arguments=$(
         IFS=' '

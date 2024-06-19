@@ -1,4 +1,4 @@
-module github.com/piyushsingariya/synkit
+module github.com/gear5sh/gear5
 
 go 1.22
 

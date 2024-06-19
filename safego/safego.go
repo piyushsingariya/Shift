@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/piyushsingariya/synkit/logger"
+	"github.com/gear5sh/gear5/logger"
 )
 
 const defaultRestartTimeout = 2 * time.Second

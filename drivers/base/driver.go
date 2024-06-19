@@ -1,9 +1,9 @@
 package base
 
 import (
-	"github.com/piyushsingariya/synkit/protocol"
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/typeutils"
+	"github.com/gear5sh/gear5/protocol"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/typeutils"
 )
 
 type Driver struct {

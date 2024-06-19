@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/brainicorn/ganno"
-	"github.com/piyushsingariya/synkit/jsonschema/schema"
+	"github.com/gear5sh/gear5/jsonschema/schema"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
@@ -208,7 +208,7 @@ func (suite *GeneratorTestSuite) TestObjectAttrs() {
 func (suite *GeneratorTestSuite) TestRecurseObject() {
 	suite.T().Parallel()
 
-	pkg := "github.com/piyushsingariya/synkit/jsonschema/generator"
+	pkg := "github.com/gear5sh/gear5/jsonschema/generator"
 	opts := NewOptions()
 	opts.LogLevel = InfoLevel
 	opts.IncludeTests = true

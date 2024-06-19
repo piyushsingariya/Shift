@@ -1,7 +1,7 @@
 package generator
 
 import (
-	"github.com/piyushsingariya/synkit/logger"
+	"github.com/gear5sh/gear5/logger"
 )
 
 // LogLevel is an enum specifying log verbosity

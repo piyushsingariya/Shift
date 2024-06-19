@@ -5,7 +5,7 @@ import (
 	//"fmt"
 	"testing"
 
-	"github.com/piyushsingariya/synkit/jsonschema/schema"
+	"github.com/gear5sh/gear5/jsonschema/schema"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
@@ -33,7 +33,7 @@ func (suite *ErrorCaseTestSuite) SetupSuite() {
 
 	suite.options = opts
 
-	suite.basePackage = "github.com/piyushsingariya/synkit/jsonschema/generator"
+	suite.basePackage = "github.com/gear5sh/gear5/jsonschema/generator"
 
 	p, _ := NewJSONSchemaGenerator("", "", opts).loadProgram(suite.basePackage, suite.options)
 

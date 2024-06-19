@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/piyushsingariya/synkit/logger"
-	"github.com/piyushsingariya/synkit/safego"
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/typeutils"
-	"github.com/piyushsingariya/synkit/utils"
+	"github.com/gear5sh/gear5/logger"
+	"github.com/gear5sh/gear5/safego"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/typeutils"
+	"github.com/gear5sh/gear5/utils"
 	"github.com/spf13/cobra"
 )
 

@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/gear5sh/gear5/utils"
 	"github.com/lib/pq"
-	"github.com/piyushsingariya/synkit/utils"
 )
 
 type Config struct {

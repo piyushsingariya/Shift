@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/gear5sh/gear5/protocol"
+	"github.com/gear5sh/gear5/types"
+	"github.com/gear5sh/gear5/typeutils"
 	"github.com/jackc/pglogrepl"
-	"github.com/piyushsingariya/synkit/protocol"
-	"github.com/piyushsingariya/synkit/types"
-	"github.com/piyushsingariya/synkit/typeutils"
 )
 
 type Config struct {

@@ -3,7 +3,7 @@ package driver
 import (
 	"fmt"
 
-	"github.com/piyushsingariya/synkit/types"
+	"github.com/gear5sh/gear5/types"
 )
 
 type Config struct {
